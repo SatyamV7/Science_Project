@@ -47,7 +47,7 @@ body {
 #root {
     width: 100%;
     height: 100%;
-    color: #49cdcf;
+    color: #00fbff;
 }
 
 .header {
@@ -60,7 +60,7 @@ body {
 .header p {
     top: 15%;
     font-size: 100px;
-    color: #ffff66;
+    color: #ffff00;
     position: absolute;
     font-family: SPOTNIK;
     font-weight: 900;
@@ -90,25 +90,25 @@ body {
 
 .topic-sub-heading {
     font-size: 35px;
-    color: #ff00e0;
+    color: #ff00e1;
 }
 
 .topic-heading:before {
     content: "▹";
     position: absolute;
-    font-size: 40px;
+    font-size: 44px;
     transform: translateY(5px);
     left: 0px;
-    line-height: 30px;
+    line-height: 42px;
 }
 
-.next2 .topic-content {
+.next2 .topic-content, .next4 .topic-content {
     display: block;
 }
 
 .topic-content {
     font-size: 25px;
-    color: #4caf50;
+    color: #00ff08;
     display: flex;
     align-items: center;
 }
@@ -120,7 +120,7 @@ body {
     text-align: justify;
 }
 
-.next2 .topic-image {
+.next2 .topic-image, .next4 .topic-image{
     position: relative;
     width: -webkit-fill-available;
     height: -webkit-fill-available;
