@@ -1,9 +1,9 @@
 @font-face {
     font-family: SPOTNIK;
-    src: url(./SPOTNIK.otf);
+    src: url(./SPOTNIK.woff2);
 }
 
 @font-face {
-    font-family: Berlin Sans FB;
-    src: url(./BRLNSR.ttf);
+    font-family: ABeeZee;
+    src: url(./ABeeZee.woff);
 }
