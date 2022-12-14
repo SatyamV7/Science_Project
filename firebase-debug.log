@@ -1,0 +1,87 @@
+[debug] [2022-12-14T12:22:04.873Z] ----------------------------------------------------------------------
+[debug] [2022-12-14T12:22:04.892Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\satya\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2022-12-14T12:22:04.893Z] CLI Version:   11.17.0
+[debug] [2022-12-14T12:22:04.893Z] Platform:      win32
+[debug] [2022-12-14T12:22:04.894Z] Node Version:  v18.12.1
+[debug] [2022-12-14T12:22:04.981Z] Time:          Wed Dec 14 2022 17:52:04 GMT+0530 (India Standard Time)
+[debug] [2022-12-14T12:22:04.981Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-12-14T12:22:05.010Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2022-12-14T12:22:05.281Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-12-14T12:22:05.282Z] > authorizing via signed-in user (satyamverma8772020@gmail.com)
+[debug] [2022-12-14T12:22:05.282Z] [iam] checking project what-is-sound for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-12-14T12:22:05.284Z] > refreshing access token with scopes: []
+[debug] [2022-12-14T12:22:05.285Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2022-12-14T12:22:05.285Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-12-14T12:22:26.375Z] [iam] error while checking permissions, command may fail: FirebaseError: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[debug] [2022-12-14T12:22:26.376Z] > refreshing access token with scopes: []
+[debug] [2022-12-14T12:22:26.377Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2022-12-14T12:22:26.377Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[warn] !  Unable to fetch the CLI MOTD and remote config. 
+[debug] [2022-12-14T12:22:26.382Z] Failed to fetch MOTD FirebaseError: Failed to make request to https://firebase-public.firebaseio.com/cli.json
+[debug] [2022-12-14T12:22:47.421Z] Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[debug] [2022-12-14T12:22:52.437Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\satya\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:253:49)
+    at listOnTimeout (node:internal/timers:564:17)
+    at process.processTimers (node:internal/timers:507:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-12-14T12:28:26.883Z] ----------------------------------------------------------------------
+[debug] [2022-12-14T12:28:26.886Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\satya\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2022-12-14T12:28:26.886Z] CLI Version:   11.17.0
+[debug] [2022-12-14T12:28:26.887Z] Platform:      win32
+[debug] [2022-12-14T12:28:26.887Z] Node Version:  v18.12.1
+[debug] [2022-12-14T12:28:26.888Z] Time:          Wed Dec 14 2022 17:58:26 GMT+0530 (India Standard Time)
+[debug] [2022-12-14T12:28:26.889Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-12-14T12:28:26.899Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2022-12-14T12:28:27.070Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-12-14T12:28:27.071Z] > authorizing via signed-in user (satyamverma8772020@gmail.com)
+[debug] [2022-12-14T12:28:27.071Z] [iam] checking project what-is-sound for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-12-14T12:28:27.073Z] > refreshing access token with scopes: []
+[debug] [2022-12-14T12:28:27.075Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2022-12-14T12:28:27.075Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[warn] !  Unable to fetch the CLI MOTD and remote config. 
+[debug] [2022-12-14T12:28:48.155Z] Failed to fetch MOTD FirebaseError: Failed to make request to https://firebase-public.firebaseio.com/cli.json
+[debug] [2022-12-14T12:28:48.180Z] [iam] error while checking permissions, command may fail: FirebaseError: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[debug] [2022-12-14T12:28:48.181Z] > refreshing access token with scopes: []
+[debug] [2022-12-14T12:28:48.182Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2022-12-14T12:28:48.183Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-12-14T12:29:19.738Z] ----------------------------------------------------------------------
+[debug] [2022-12-14T12:29:19.741Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\satya\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2022-12-14T12:29:19.742Z] CLI Version:   11.17.0
+[debug] [2022-12-14T12:29:19.743Z] Platform:      win32
+[debug] [2022-12-14T12:29:19.743Z] Node Version:  v18.12.1
+[debug] [2022-12-14T12:29:19.744Z] Time:          Wed Dec 14 2022 17:59:19 GMT+0530 (India Standard Time)
+[debug] [2022-12-14T12:29:19.745Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-12-14T12:29:19.750Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2022-12-14T12:29:19.968Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-12-14T12:29:19.969Z] > authorizing via signed-in user (satyamverma8772020@gmail.com)
+[debug] [2022-12-14T12:29:19.970Z] [iam] checking project what-is-sound for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-12-14T12:29:19.974Z] > refreshing access token with scopes: []
+[debug] [2022-12-14T12:29:19.977Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2022-12-14T12:29:19.977Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-12-14T12:29:41.090Z] [iam] error while checking permissions, command may fail: FirebaseError: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[debug] [2022-12-14T12:29:41.092Z] > refreshing access token with scopes: []
+[debug] [2022-12-14T12:29:41.092Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2022-12-14T12:29:41.093Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[warn] !  Unable to fetch the CLI MOTD and remote config. 
+[debug] [2022-12-14T12:29:41.098Z] Failed to fetch MOTD FirebaseError: Failed to make request to https://firebase-public.firebaseio.com/cli.json
+[debug] [2022-12-14T12:30:02.127Z] Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[debug] [2022-12-14T12:30:07.142Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\satya\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:253:49)
+    at listOnTimeout (node:internal/timers:564:17)
+    at process.processTimers (node:internal/timers:507:7)
+[error] 
+[error] Error: An unexpected error has occurred.
