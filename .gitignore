@@ -31,3 +31,4 @@ node_modules/
 
 #FireBase
 .firebase/
+firebase-debug.log
