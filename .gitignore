@@ -20,7 +20,7 @@ $RECYCLE.BIN/
 *.msm
 *.msp
 
-#Log Files
+#Log files
 *.log
 
 # Windows shortcuts
