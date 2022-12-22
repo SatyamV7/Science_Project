@@ -4,8 +4,8 @@ var _topicThreeNext = document.querySelector('.next3');
 var _topicFourNext = document.querySelector('.next4');
 var _topicFiveNext = document.querySelector('.next5');
 var _topicSixNext = document.querySelector('.next6');
-/*var _topicSevenNext = document.querySelector('.next7');
-var _topicEightNext = document.querySelector('.next8');
+var _topicSevenNext = document.querySelector('.next7');
+/*var _topicEightNext = document.querySelector('.next8');
 var _topicNineNext = document.querySelector('.next9');
 var _topicTenNext = document.querySelector('.next10');
 var _topicElevenNext = document.querySelector('.next11');
@@ -22,8 +22,8 @@ function onStart() {
     _topicFourNext.style.display = 'none';
     _topicFiveNext.style.display = 'none';
     _topicSixNext.style.display = 'none';
-/*    _topicSevenNext.style.display = 'none';
-    _topicEightNext.style.display = 'none';
+   _topicSevenNext.style.display = 'none';
+/*     _topicEightNext.style.display = 'none';
     _topicNineNext.style.display = 'none';
     _topicTenNext.style.display = 'none';
     _topicElevenNext.style.display = 'none';
@@ -37,8 +37,8 @@ function onClickOneNext() {
     _topicFourNext.style.display = 'none';
     _topicFiveNext.style.display = 'none';
     _topicSixNext.style.display = 'none';
-/*    _topicSevenNext.style.display = 'none';
-    _topicEightNext.style.display = 'none';
+   _topicSevenNext.style.display = 'none';
+/*     _topicEightNext.style.display = 'none';
     _topicNineNext.style.display = 'none';
     _topicTenNext.style.display = 'none';
     _topicElevenNext.style.display = 'none';
@@ -51,8 +51,8 @@ function onClickTwoNext() {
     _topicFourNext.style.display = 'none';
     _topicFiveNext.style.display = 'none';
     _topicSixNext.style.display = 'none';
-/*    _topicSevenNext.style.display = 'none';
-    _topicEightNext.style.display = 'none';
+    _topicSevenNext.style.display = 'none';
+/*    _topicEightNext.style.display = 'none';
     _topicNineNext.style.display = 'none';
     _topicTenNext.style.display = 'none';
     _topicElevenNext.style.display = 'none';
@@ -66,8 +66,8 @@ function onClickThreeNext() {
     _topicFourNext.style.display = 'block';
     _topicFiveNext.style.display = 'none';
     _topicSixNext.style.display = 'none';
-/*    _topicSevenNext.style.display = 'none';
-    _topicEightNext.style.display = 'none';
+    _topicSevenNext.style.display = 'none';
+/*    _topicEightNext.style.display = 'none';
     _topicNineNext.style.display = 'none';
     _topicTenNext.style.display = 'none';
     _topicElevenNext.style.display = 'none';
@@ -81,8 +81,8 @@ function onClickFourNext() {
     _topicFourNext.style.display = 'none';
     _topicFiveNext.style.display = 'block';
     _topicSixNext.style.display = 'none';
-/*    _topicSevenNext.style.display = 'none';
-    _topicEightNext.style.display = 'none';
+    _topicSevenNext.style.display = 'none';
+/*    _topicEightNext.style.display = 'none';
     _topicNineNext.style.display = 'none';
     _topicTenNext.style.display = 'none';
     _topicElevenNext.style.display = 'none';
@@ -96,8 +96,23 @@ function onClickFiveNext() {
     _topicFourNext.style.display = 'none';
     _topicFiveNext.style.display = 'none';
     _topicSixNext.style.display = 'block';
-/*    _topicSevenNext.style.display = 'none';
-    _topicEightNext.style.display = 'none';
+    _topicSevenNext.style.display = 'none';
+/*    _topicEightNext.style.display = 'none';
+    _topicNineNext.style.display = 'none';
+    _topicTenNext.style.display = 'none';
+    _topicElevenNext.style.display = 'none';
+    _topicTwelveNext.style.display = 'none';*/
+}
+
+function onClickSixNext() {
+    _topicOneNext.style.display = 'none';
+    _topicTwoNext.style.display = 'none';
+    _topicThreeNext.style.display = 'none';
+    _topicFourNext.style.display = 'none';
+    _topicFiveNext.style.display = 'none';
+    _topicSixNext.style.display = 'none';
+    _topicSevenNext.style.display = 'block';
+/*    _topicEightNext.style.display = 'none';
     _topicNineNext.style.display = 'none';
     _topicTenNext.style.display = 'none';
     _topicElevenNext.style.display = 'none';

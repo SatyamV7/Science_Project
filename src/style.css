@@ -11,8 +11,9 @@ html {
     width: 100%;
     height: 100%;
     overflow: overlay;
-    user-select: none;
     -webkit-user-select: none;
+    user-select: none;
+
 }
 
 ::-webkit-scrollbar {
@@ -103,7 +104,8 @@ body {
 }
 
 .next2 .topic-content,
-.next4 .topic-content {
+.next4 .topic-content,
+.next7 .topic-content {
     display: block;
 }
 
@@ -121,13 +123,15 @@ body {
     text-align: justify;
 }
 
-.next6 .topic-image img{
-    height: 450px!important;
+.next6 .topic-image img,
+.next7 .topic-image img {
+    height: 450px !important;
 }
 
 .next2 .topic-image,
 .next4 .topic-image,
-.next6 .topic-image {
+.next6 .topic-image,
+.next7 .topic-image {
     position: relative;
     width: -webkit-fill-available;
     height: -webkit-fill-available;
