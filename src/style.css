@@ -11,8 +11,9 @@ html {
     width: 100%;
     height: 100%;
     overflow: overlay;
-    user-select: none;
     -webkit-user-select: none;
+    user-select: none;
+
 }
 
 ::-webkit-scrollbar {
@@ -71,7 +72,7 @@ body {
 }
 
 .TopicMain {
-    margin: 100px 0px 100px 0px;
+    margin: 100px 0px 0px 0px;
     padding: 0 55px 28px 55px;
 }
 
@@ -102,7 +103,11 @@ body {
     line-height: 42px;
 }
 
-.next2 .topic-content, .next4 .topic-content {
+.next2 .topic-content,
+.next4 .topic-content,
+.next7 .topic-content,
+.next8 .topic-content,
+.next11 .topic-content {
     display: block;
 }
 
@@ -120,13 +125,33 @@ body {
     text-align: justify;
 }
 
-.next2 .topic-image, .next4 .topic-image{
+.next6 .topic-image img,
+.next7 .topic-image img,
+.next8 .topic-image img {
+    height: 450px !important;
+}
+
+.next2 .topic-image,
+.next4 .topic-image,
+.next6 .topic-image,
+.next7 .topic-image,
+.next8 .topic-image,
+.next11 .topic-image {
     position: relative;
     width: -webkit-fill-available;
     height: -webkit-fill-available;
     display: flex;
     justify-content: center;
     margin: auto auto 40px auto;
+}
+
+.next2 .topic-image img,
+.next4 .topic-image img,
+.next6 .topic-image img,
+.next7 .topic-image img,
+.next8 .topic-image img,
+.next11 .topic-image img {
+    margin-left: 0px;
 }
 
 .topic-image {
@@ -139,6 +164,16 @@ body {
     height: 300px;
     margin-left: 75px;
     border-radius: 50px;
+}
+
+.topic-content ul {
+    margin: 35px 50px 35px 50px;
+    max-width: 75%;
+    text-align: justify;
+}
+
+.topic-content ul li {
+    margin-top: 5px;
 }
 
 .NavBtn {
@@ -167,12 +202,40 @@ body {
     background: linear-gradient(-45deg, rgb(100, 71, 182), rgb(255, 77, 77));
 }
 
+.EndBtn {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 33% 5% 33%;
+}
+
+.EndBtn button {
+    height: 120px;
+    width: 120px;
+    outline: none;
+    color: #f2f2f2;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 50%;
+    border: none;
+    margin: 0 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
+}
+
+.EndBtn button:hover {
+    transform: scale(0.85);
+    background: rgba(255, 255, 255, 0.3);
+}
+
 table {
     border-color: #aabcfe;
     border-spacing: 0;
     border-style: solid;
     border-radius: 15px;
-    margin: 0px auto;
+    margin: 75px auto 0px auto;
     width: 50%;
 }
 
@@ -214,6 +277,18 @@ table th.left {
     border-spacing: 0;
     border-style: solid;
     border-top-left-radius: 10px;
+}
+
+table td.right {
+    border-spacing: 0;
+    border-style: solid;
+    border-bottom-right-radius: 10px;
+}
+
+table td.left {
+    border-spacing: 0;
+    border-style: solid;
+    border-bottom-left-radius: 10px;
 }
 
 table .light {

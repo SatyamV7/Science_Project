@@ -20,6 +20,9 @@ $RECYCLE.BIN/
 *.msm
 *.msp
 
+#Log files
+*.log
+
 # Windows shortcuts
 *.lnk
 
@@ -28,3 +31,5 @@ node_modules/
 
 #FireBase
 .firebase/
+firebase-debug.log
+.firebase/hosting..cache
