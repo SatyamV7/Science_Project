@@ -10,7 +10,6 @@ var _topicEightNext = document.querySelector('.next8');
 var _topicNineNext = document.querySelector('.next9');
 var _topicTenNext = document.querySelector('.next10');
 var _topicElevenNext = document.querySelector('.next11');
-/*var _topicTwelveNext = document.querySelector('.next12');*/
 
 document.addEventListener('contextmenu', event => event.preventDefault());
 
@@ -35,7 +34,6 @@ function onStart() {
     _topicNineNext.style.display = 'none';
     _topicTenNext.style.display = 'none';
     _topicElevenNext.style.display = 'none';
-    /*    _topicTwelveNext.style.display = 'none';*/
 }
 
 function onClickOneNext() {
@@ -51,7 +49,6 @@ function onClickOneNext() {
     _topicNineNext.style.display = 'none';
     _topicTenNext.style.display = 'none';
     _topicElevenNext.style.display = 'none';
-    /*    _topicTwelveNext.style.display = 'none';*/
 }
 function onClickTwoNext() {
     _header.style.display = 'flex';
@@ -66,7 +63,6 @@ function onClickTwoNext() {
     _topicNineNext.style.display = 'none';
     _topicTenNext.style.display = 'none';
     _topicElevenNext.style.display = 'none';
-    /*    _topicTwelveNext.style.display = 'none';*/
 }
 
 function onClickThreeNext() {
@@ -82,7 +78,6 @@ function onClickThreeNext() {
     _topicNineNext.style.display = 'none';
     _topicTenNext.style.display = 'none';
     _topicElevenNext.style.display = 'none';
-    /*    _topicTwelveNext.style.display = 'none';*/
 }
 
 function onClickFourNext() {
@@ -98,7 +93,6 @@ function onClickFourNext() {
     _topicNineNext.style.display = 'none';
     _topicTenNext.style.display = 'none';
     _topicElevenNext.style.display = 'none';
-    /*    _topicTwelveNext.style.display = 'none';*/
 }
 
 function onClickFiveNext() {
@@ -114,7 +108,6 @@ function onClickFiveNext() {
     _topicNineNext.style.display = 'none';
     _topicTenNext.style.display = 'none';
     _topicElevenNext.style.display = 'none';
-    /*    _topicTwelveNext.style.display = 'none';*/
 }
 
 function onClickSixNext() {
@@ -130,7 +123,6 @@ function onClickSixNext() {
     _topicNineNext.style.display = 'none';
     _topicTenNext.style.display = 'none';
     _topicElevenNext.style.display = 'none';
-    /*    _topicTwelveNext.style.display = 'none';*/
 }
 
 function onClickSevenNext() {
@@ -146,7 +138,6 @@ function onClickSevenNext() {
     _topicNineNext.style.display = 'none';
     _topicTenNext.style.display = 'none';
     _topicElevenNext.style.display = 'none';
-    /*    _topicTwelveNext.style.display = 'none';*/
 }
 
 function onClickEightNext() {
@@ -162,7 +153,6 @@ function onClickEightNext() {
     _topicNineNext.style.display = 'block';
     _topicTenNext.style.display = 'none';
     _topicElevenNext.style.display = 'none';
-    /*    _topicTwelveNext.style.display = 'none';*/
 }
 
 function onClickNineNext() {
@@ -178,7 +168,6 @@ function onClickNineNext() {
     _topicNineNext.style.display = 'none';
     _topicTenNext.style.display = 'block';
     _topicElevenNext.style.display = 'none';
-    /*    _topicTwelveNext.style.display = 'none';*/
 }
 
 function onClickTenNext() {
@@ -194,5 +183,4 @@ function onClickTenNext() {
     _topicNineNext.style.display = 'none';
     _topicTenNext.style.display = 'none';
     _topicElevenNext.style.display = 'block';
-    /*    _topicTwelveNext.style.display = 'none';*/
 }
