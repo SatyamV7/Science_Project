@@ -10,16 +10,46 @@ var _topicEightNext = document.querySelector('.next8');
 var _topicNineNext = document.querySelector('.next9');
 var _topicTenNext = document.querySelector('.next10');
 var _topicElevenNext = document.querySelector('.next11');
+var _onClickVideos = document.querySelector('.onClickVideos');
+var _onClickQuiz = document.querySelector('.onClickQuiz');
+var _onClickWorksheets = document.querySelector('.onClickWorksheets');
+var _onHoverVideos = document.querySelector('.onHoverVideos');
+var _onHoverQuiz = document.querySelector('.onHoverQuiz');
+var _onHoverWorksheets = document.querySelector('.onHoverWorksheets');
 
 document.addEventListener('contextmenu', event => event.preventDefault());
 
-function onClickWorksheet(){
+function onClickWorksheet() {
     window.location.replace('\\assets\\documents\\Worksheets.pdf')
 }
 
-function onClickVideos(){
+function onClickVideos() {
     window.location.replace('https://www.youtube.com/watch?v=X5iUWGipy2s')
 }
+
+_onClickVideos.addEventListener('mouseover', function handleMouseOver() {
+    _onHoverVideos.style.display = 'block';
+});
+
+_onClickQuiz.addEventListener('mouseover', function handleMouseOver() {
+    _onHoverQuiz.style.display = 'block';
+});
+_onClickWorksheets.addEventListener('mouseover', function handleMouseOver() {
+    _onHoverWorksheets.style.display = 'block';
+});
+
+_onClickVideos.addEventListener('mouseout', function handleMouseOut() {
+    _onHoverVideos.style.display = 'none';
+});
+
+_onClickQuiz.addEventListener('mouseout', function handleMouseOut() {
+    _onHoverQuiz.style.display = 'none';
+});
+
+_onClickWorksheets.addEventListener('mouseout', function handleMouseOut() {
+    _onHoverWorksheets.style.display = 'none';
+});
+
 
 function onStart() {
     _header.style.display = 'flex';
