@@ -22,7 +22,9 @@ document.addEventListener('contextmenu', event => event.preventDefault());
 function onClickWorksheet() {
     window.location.replace('\\assets\\documents\\Worksheets.pdf')
 }
-
+function onClickQuiz() {
+    window.location.replace('https://quizz-awesome.netlify.app/?quizz=https://what-is-sound.web.app/src/questions.js')
+}
 function onClickVideos() {
     window.location.replace('https://www.youtube.com/watch?v=X5iUWGipy2s')
 }
