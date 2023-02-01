@@ -20,7 +20,7 @@ var _onHoverWorksheets = document.querySelector('.onHoverWorksheets');
 document.addEventListener('contextmenu', event => event.preventDefault());
 
 function onClickWorksheet() {
-    window.location.replace('\\assets\\documents\\Worksheets.pdf')
+    window.location.replace('./assets/documents/Worksheets.pdf')
 }
 function onClickQuiz() {
     window.location.replace('https://quizz-awesome.netlify.app/?quizz=https://what-is-sound.web.app/src/questions.js')

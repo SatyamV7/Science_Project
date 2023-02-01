@@ -11,6 +11,10 @@
 </head>
 
 <body onload="onStart()">
+    <div id="splash-screen">
+        <img src="./favicon.ico" alt="">
+        <span class="loader"></span>
+    </div>
     <div id="root">
         <div class="header">
             <p>Sound</p>
@@ -453,7 +457,7 @@
             </div>
             <div class="SubTopicMain">
                 <div class="topic">
-                    <div class="topic-sub-heading">Frequency and Pitch </div>
+                    <div class="topic-sub-heading">Frequency and Pitch</div>
                     <br>
                     <div class="topic-content">
                         <div class="topic-text" style="width: 97.5%">Frequency and pitch are directly proportional to
@@ -736,6 +740,12 @@
             </div>
         </div>
         <script src="./src/script.js" type="text/javascript"></script>
+        <script>
+            setTimeout(function () {
+                document.querySelector("#splash-screen").style.display = "none";
+                document.querySelector("#root").style.display = "block";
+            }, 3000);
+        </script>
     </div>
 </body>
 
